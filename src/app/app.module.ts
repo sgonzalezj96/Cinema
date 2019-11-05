@@ -9,12 +9,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { NavbarComponent } from './landingpage/navbar/navbar.component';
 import { NavbarMenuComponent } from './landingpage/navbar-menu/navbar-menu.component';
+import { FiltrarPeliculasComponent } from './landingpage/filtrar-peliculas/filtrar-peliculas.component';
+import { SlidesComponent } from './landingpage/slides/slides.component';
 @NgModule({
   declarations: [
     AppComponent,
     LandingpageComponent,
     NavbarComponent,
-    NavbarMenuComponent
+    NavbarMenuComponent,
+    FiltrarPeliculasComponent,
+    SlidesComponent
   ],
   imports: [
     BrowserModule,
