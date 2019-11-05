@@ -1,0 +1,35 @@
+<!-- Dropdown Desktop-->
+<ul id="dropdownDesktop" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li><a href="#!">three</a></li>
+</ul>
+<!--Dropdown Mobile-->
+<ul id="dropdownMobile" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+<!--Menú mobile-->
+<ul class="sidenav indigo accent-3" id="mobile-demo">
+    <li><a class="white-text" href="sass.html">Sass</a></li>
+    <li><a class="white-text" href="badges.html">Components</a></li>
+    <li><a class="white-text" href="collapsible.html">Javascript</a></li>
+    <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownMobile">Dropdown<i class="material-icons right white-text">arrow_drop_down</i></a></li>
+</ul>
+<!--Menú mobile-->
+<nav>
+  <div class="nav-wrapper indigo accent-3">
+    <!--Icono mobile-->
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons left white-text">menu</i></a>
+    <a href="#!" class="brand-logo">
+      <img src="./assets/CinemaxLanding/imagenes/logo.png" width="230px" class="responsive">
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdownDesktop">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+  </div>
+</nav>

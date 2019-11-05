@@ -1,0 +1,7 @@
+.dropdown-content li>a{
+    color: white;
+    background-color: #3d5afe ;
+}
+.divider{
+    height: 1px !important;
+}

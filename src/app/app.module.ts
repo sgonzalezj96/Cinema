@@ -8,11 +8,13 @@ import {AdminService} from './Services/admin.service';
 import { HttpClientModule } from '@angular/common/http';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { NavbarComponent } from './landingpage/navbar/navbar.component';
+import { NavbarMenuComponent } from './landingpage/navbar-menu/navbar-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
     LandingpageComponent,
-    NavbarComponent
+    NavbarComponent,
+    NavbarMenuComponent
   ],
   imports: [
     BrowserModule,
