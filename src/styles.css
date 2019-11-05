@@ -5,3 +5,11 @@
 .row{
     margin-bottom: 0;
 }
+.card-content{
+    font-size: 20px;
+    padding-left:10px;
+}
+.carousel{
+    perspective: 900px !important;
+    height: 280px ;
+}

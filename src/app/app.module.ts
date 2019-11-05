@@ -11,6 +11,8 @@ import { NavbarComponent } from './landingpage/navbar/navbar.component';
 import { NavbarMenuComponent } from './landingpage/navbar-menu/navbar-menu.component';
 import { FiltrarPeliculasComponent } from './landingpage/filtrar-peliculas/filtrar-peliculas.component';
 import { SlidesComponent } from './landingpage/slides/slides.component';
+import { CarteleraComponent } from './landingpage/cartelera/cartelera.component';
+import { CarouselComponent } from './landingpage/carousel/carousel.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { SlidesComponent } from './landingpage/slides/slides.component';
     NavbarComponent,
     NavbarMenuComponent,
     FiltrarPeliculasComponent,
-    SlidesComponent
+    SlidesComponent,
+    CarteleraComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
